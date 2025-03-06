@@ -141,5 +141,5 @@
       - [train.parameter.max_tokens, inference.parameter.max_tokens]
       - [preprocess.parameter.model_id, train.parameter.model_id]
       - [train.parameter.model_id, inference.parameter.model_id]
-      - [train.output.finetuned_mistral.best_model.adapter_config.json, deploy.file.mistral-inference.adapter_config]
-      - [train.output.finetuned_mistral.best_model.adapter_model.safetensors, deploy.file.mistral-inference.adapter_model]
+      - [train.output.finetuned_mistral/best_model/adapter_config.json, deploy.file.mistral-inference.adapter_config]
+      - [train.output.finetuned_mistral/best_model/adapter_model.safetensors, deploy.file.mistral-inference.adapter_model]
